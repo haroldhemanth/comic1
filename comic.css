@@ -1,0 +1,65 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use a retro-looking font */
+    background-color: #f4f4f4; /* Light background color */
+    color: #000; /* Default text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e84855; /* Red header background color */
+    color: #fff; /* Header text color */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p{
+    text-align: left;
+}
+.comic-panel {
+    text-align: center;
+    margin: 20px;
+}
+
+.comic2{
+    text-align: left;
+    margin: 20px
+}
+
+img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    border: 4px solid #1c1c1c; /* Black border for comic panels */
+}
+
+.kap{
+    font-size: 24px;
+    font-weight: 1000;
+    transform: skew(15deg, -15deg);
+    margin-top: 16px;
+    text-align: center;
+}
+
+.cen{
+    text-align: center;
+}
+
+.pan{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+footer {
+    background-color: #1c1c1c; /* Dark footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
